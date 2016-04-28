@@ -1,0 +1,2 @@
+﻿Classes
+http://www.typescriptlang.org/docs/handbook/classes.html

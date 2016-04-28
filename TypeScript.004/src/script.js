@@ -1,0 +1,1 @@
+var Usuario=function(){function t(){}return t.prototype.calculaIdade=function(){this.idade=(new Date).getFullYear()-this.dataNascimento.getFullYear()},t.prototype.toString=function(){return"nome: "+this.nome+" - idade "+this.idade},t}(),us=new Usuario;us.nome="Tiago",us.dataNascimento=new Date(1987,3,13),us.calculaIdade(),document.body.innerHTML=us.toString();
